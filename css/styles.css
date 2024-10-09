@@ -1,0 +1,85 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #2c3e50, #34495e); /* Dark gradient background */
+    color: #ecf0f1; /* Light text color for contrast */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Header text styles */
+h1 {
+    color: #ffcc00; /* Bright color for the header */
+    font-size: 2.5em;
+}
+
+/* Gallery container styles */
+#gallery {
+    max-width: 1200px;
+    margin: auto;
+    background: #1a1a1a; /* Dark background for gallery */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Deeper shadow for depth */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Figure styling */
+figure {
+    margin: 0;
+}
+
+/* Featured image styling */
+#featured-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 5px solid #ffcc00; /* Decorative border for emphasis */
+}
+
+/* Caption styles */
+figcaption {
+    text-align: center;
+    font-size: 1.2em;
+    color: #bdc3c7; /* Lighter caption color */
+    padding: 10px;
+    font-style: italic; /* Italics for a stylish look */
+}
+
+/* Thumbnail list styles */
+#thumbnail-list {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    list-style-type: none;
+    margin: 0;
+}
+
+/* Thumbnail item styles */
+#thumbnail-list li {
+    margin: 5px;
+}
+
+/* Thumbnail image styles */
+#thumbnail-list img {
+    border: 2px solid #34495e; /* Dark border for thumbnails */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, filter 0.2s; /* Smooth transformation effects */
+}
+
+/* Hover effect for thumbnails */
+#thumbnail-list img:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    filter: brightness(90%); /* Darken slightly */
+}
+
+/* Active thumbnail styles */
+.active {
+    border-color: #ffcc00; /* Highlight active thumbnail */
+    filter: brightness(100%); /* Reset brightness for active thumbnail */
+}

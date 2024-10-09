@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Beautiful Image Gallery | COMP1073 Client-Side JavaScript</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Beautiful Flower Gallery</h1>
+    </header>
+    <section id="gallery">
+        <figure>
+            <img src="images/flowers-yellow-large.jpg" alt="Yellow Flowers" id="featured-image" width="1200" height="800" />
+            <figcaption id="image-caption">Yellow Flowers</figcaption>
+        </figure>
+        <ul id="thumbnail-list">
+            <li><img src="images/flowers-yellow-small.jpg" alt="Yellow Flowers" width="240" height="160" data-full="images/flowers-yellow-large.jpg" /></li>
+            <li><img src="images/flowers-white-small.jpg" alt="White Flowers" width="240" height="160" data-full="images/flowers-white-large.jpg" /></li>
+            <li><img src="images/flowers-red-small.jpg" alt="Red Flowers" width="240" height="160" data-full="images/flowers-red-large.jpg" /></li>
+            <li><img src="images/flowers-purple-small.jpg" alt="Purple Flowers" width="240" height="160" data-full="images/flowers-purple-large.jpg" /></li>
+            <li><img src="images/flowers-pink-small.jpg" alt="Pink Flowers" width="240" height="160" data-full="images/flowers-pink-large.jpg" /></li>
+        </ul>
+    </section>
+    <script src="js/gallery.js"></script>
+</body>
+</html>
